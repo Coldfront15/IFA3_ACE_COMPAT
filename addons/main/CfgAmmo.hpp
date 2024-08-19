@@ -496,6 +496,16 @@ class CfgAmmo {
         ace_rearm_caliber = 82;
     };
 
+    class LIB_Sh_60_HE: LIB_Sh_82_HE  {
+        EGVAR(frag,enabled) = 1;
+        EGVAR(frag,force) = 1;
+        EGVAR(frag,metal) = 1400;
+        EGVAR(frag,charge) = 185;
+        EGVAR(frag,gurney_c) = 2700;
+        EGVAR(frag,gurney_k) = "1/2";
+        EGVAR(frag,classes)[] = {"ACE_frag_medium","ACE_frag_small"};
+    };
+
     class ARTY_LIB_Sh_82_HE: LIB_Sh_82_HE {
         ace_frag_enabled = 1;
         ace_frag_classes[] = {"ACE_frag_medium", "ACE_frag_medium_HD"};
