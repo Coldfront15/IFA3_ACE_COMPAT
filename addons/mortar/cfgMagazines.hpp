@@ -80,19 +80,19 @@ class CfgMagazines
 	};
 	class LIB_1Rnd_60mm_Mo_HE: LIB_1rnd_60mmHE_M2
 	{
-		mass = 25;
+		mass = 15;
 		ace_arsenal_hide = 1;
 		scope = 1;
 	};
 	class LIB_1Rnd_60mm_Mo_Smoke: LIB_60mm_M2_SmokeShell
 	{
-		mass = 25;
+		mass = 15;
 		ace_arsenal_hide = 1;
 		scope = 1;
 	};
 	class LIB_1Rnd_60mm_Mo_Illum: ACE_1Rnd_82mm_Mo_Illum
 	{
-		mass = 25;
+		mass = 15;
 		displayName = "$STR_ACE_60mm_magazine_Illum_displayName";
 		model = "\WW2\Assets_m\Weapons\Ammoboxes_m\mortars\WW2_shell60.p3d";
 		hiddenSelections[] = {"camo1"};
