@@ -29,7 +29,6 @@ class CfgMagazines
 	};
 	class LIB_1rnd_60mmHE_M2: LIB_8Rnd_60mmHE_M2
 	{
-		mass = 40;
 		mass = 25;
 		ace_arsenal_hide = -1;
 	};
@@ -99,6 +98,5 @@ class CfgMagazines
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"WW2\Assets_t\Weapons\Ammoboxes_t\WW2_Mortars\shell60_illum_co.paa"};
 		picture = "\WW2\Assets_t\Weapons\Equipment_t\Magazines\Mortars\M_60_Illum_ca.paa";
-		mass = 30;
 	};
 };
