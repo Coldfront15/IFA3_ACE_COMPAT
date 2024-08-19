@@ -1,9 +1,10 @@
-release/*
-*.cache
 *.pbo
-!additionals/*.pbo
-texHeaders.bin
-*.swp
-*.swo
+.hemttout
+hemtt
+hemtt.exe
 *.biprivatekey
-Thumbs.db
+.hemtt/project.toml
+.gitattributes
+.editorconfig
+.gitattributes
+.editorconfig
