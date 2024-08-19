@@ -897,14 +897,14 @@ class CfgAmmo {
     };
 
     //Defined mine baseclass update.    
-    class MineCore {};
-    class PipeBombBase {};
+    class MineCore;
+    class PipeBombBase;
     class LIB_MAIN_mine: MineCore {
-        GVAR(detectable) = 1;
+        ace_mineDetector_detectable = 1;
     };
 
     class LIB_MAIN_pipebomb: MineCore {
-        GVAR(detectable) = 1;
+        ace_mineDetector_detectable = 1;
     };
 
     class LIB_Ladung_Small_ammo: LIB_MAIN_pipebomb {
