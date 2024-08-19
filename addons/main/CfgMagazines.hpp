@@ -27,7 +27,6 @@ class CfgMagazines {
 
     class LIB_Mine_Magazine: CA_Magazine {
         useAction = 0;
-        ace_mineDetector_detectable = 1;
         useActionTitle = "";
     };
 
