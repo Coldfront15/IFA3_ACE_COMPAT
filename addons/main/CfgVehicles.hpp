@@ -197,16 +197,49 @@ class CfgVehicles {
         ace_dragging_dragDirection = 0;
     };
 
+    //Backpacks
 
     class B_LIB_AssaultPack_Base;
+    class B_LIB_US_Backpack_RocketBag;
+    class B_LIB_GER_Backpack;
+
+    class B_LIB_GER_SapperBackpack_empty: B_LIB_GER_Backpack {
+        ace_trenches_entrenchingTool = 1;
+    };
+    class B_LIB_US_Backpack: B_LIB_AssaultPack_Base {
+        ace_trenches_entrenchingTool = 1;
+    };
+    class B_LIB_US_Backpack_Bandoleer: B_LIB_US_Backpack {
+        ace_trenches_entrenchingTool = 1;
+    };
+    class B_LIB_US_Backpack_dday: B_LIB_US_Backpack {
+        ace_trenches_entrenchingTool = 1;
+    };
+    class B_LIB_US_Backpack_Mk2: B_LIB_US_Backpack {
+        ace_trenches_entrenchingTool = 1;
+    };
+    class B_LIB_US_Backpack_RocketBag_Empty: B_LIB_US_Backpack_RocketBag {
+        ace_trenches_entrenchingTool = 1;
+    };
+   
     class B_LIB_GER_LW_Paradrop: B_LIB_AssaultPack_Base {
         ace_hasReserveParachute = 1;
-        ace_reserveParachute = "ACE_ReserveParachute";
+        ace_reserveParachute = "ACE_NonSteerableParachute";
+    };
+
+    class B_LIB_US_Type5: B_LIB_AssaultPack_Base {
+        ace_hasReserveParachute = 1;
+        ace_reserveParachute = "ACE_NonSteerableParachute";
+    };
+
+    class B_LIB_US_TypeA3: B_LIB_AssaultPack_Base {
+        ace_hasReserveParachute = 1;
+        ace_reserveParachute = "ACE_NonSteerableParachute";
     };
 
     class B_LIB_SOV_RA_Paradrop: B_LIB_AssaultPack_Base {
         ace_hasReserveParachute = 1;
-        ace_reserveParachute = "ACE_ReserveParachute";
+        ace_reserveParachute = "ACE_NonSteerableParachute";
     };
 	class Thing;
 	class LIB_ParachuteLanded_base: Thing
@@ -215,6 +248,8 @@ class CfgVehicles {
         ace_reserveParachute = "";
 	};
 	
+
+    // Planes
     class LIB_Plane_base;
     class LIB_SU_Plane_base: LIB_Plane_base {};
     class LIB_GER_Plane_base: LIB_Plane_base {};
